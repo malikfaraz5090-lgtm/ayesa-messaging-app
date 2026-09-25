@@ -1,0 +1,31 @@
+name: ayesa_messaging_app
+description: A WhatsApp-like messaging application built with Flutter.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.13.0
+  cloud_firestore: ^4.13.0
+  provider: ^6.0.0
+  intl: ^0.18.1
+  get: ^4.6.5
+  cached_network_image: ^3.3.0
+  timeago: ^3.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
